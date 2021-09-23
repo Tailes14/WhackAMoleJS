@@ -24,7 +24,9 @@
     height: 600px;
 }
 
+
 .mole {
     background-image: url();
     background-size: cover;
+    background-color: blue;
 }
