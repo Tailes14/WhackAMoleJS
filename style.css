@@ -1,3 +1,13 @@
+.headers {
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+#remainingTime {
+    color:red;
+}
+
 .square {
     border-style: solid;
     border-color:black;
@@ -5,10 +15,16 @@
     width: 150px;
 }
 
-.grid {
+.playGrid {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     align-content: center;
-    
+    width: 600px;
+    height: 600px;
+}
+
+.mole {
+    background-image: url();
+    background-size: cover;
 }
