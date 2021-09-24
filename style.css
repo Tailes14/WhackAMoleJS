@@ -11,8 +11,8 @@
 .square {
     border-style: solid;
     border-color:black;
-    height: 150px;
-    width: 150px;
+    height: 200px;
+    width: 200px;
 }
 
 .playGrid {
@@ -20,13 +20,12 @@
     flex-flow: row wrap;
     justify-content: center;
     align-content: center;
-    width: 600px;
-    height: 600px;
+    width: 700px;
+    height: 700px;
 }
 
 
 .mole {
-    background-image: url();
+    background-image: url(files/grady.png);
     background-size: cover;
-    background-color: blue;
 }
