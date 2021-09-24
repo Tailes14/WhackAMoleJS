@@ -26,6 +26,7 @@
 
 
 .mole {
+    /* Allows for mole image to be personalized */
     background-image: url(files/grady.png);
     background-size: cover;
 }
