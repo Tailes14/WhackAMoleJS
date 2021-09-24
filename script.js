@@ -40,8 +40,8 @@ function startGame() {
 
 // function to move the Mole around
 function updateMolePos() {
-    // calling the random square function every second
-    moleTimer = setInterval(randomSquare, 1000);
+    // calling the random square function every 3/4 second
+    moleTimer = setInterval(randomSquare, 750);
 }
 
 // function to decrease the time left on the game
